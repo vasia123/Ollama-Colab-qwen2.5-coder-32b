@@ -1,5 +1,6 @@
 # Ollama on Google Colab - qwen2.5-coder-32b
 
+<<<<<<< HEAD
 ![Header](header.jpg)
 
 This notebook allows you to run the Qwen 2.5 Coder (32B) language model on Google Colab using Ollama. The setup provides a public endpoint through ngrok, allowing you to interact with the model from anywhere.
