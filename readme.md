@@ -1,6 +1,6 @@
 # Ollama on Google Colab - qwen2.5-coder-32b
 
-![Header](header.jpg)
+![Header](/assets/header.jpg)
 
 This notebook allows you to run the Qwen 2.5 Coder (32B) language model on Google Colab using Ollama. The setup provides a public endpoint through ngrok, allowing you to interact with the model from anywhere.
 
@@ -23,6 +23,10 @@ This notebook allows you to run the Qwen 2.5 Coder (32B) language model on Googl
 2. Select `Runtime` -> `Change runtime type`
 3. Set "Hardware accelerator" to `GPU`
 4. Click `Save`
+
+![Change Runtime - Google Colab](assets/Colab-Runtime-Change.png)
+
+![Select Runtime - Google Colab](assets/Colab-Select-Runtime.png)
 
 ### 2. ngrok Token Setup
 
@@ -74,6 +78,14 @@ curl -X POST https://your-ngrok-url/api/generate \
   -H 'Content-Type: application/json' \
   -d '{"model": "qwen2.5-coder:32b", "prompt": "Write a hello world program in Python"}'
 ```
+
+### Use with VSCode Extension
+
+Ex. CodeGPT
+
+![qwen2.5-coder:32b model used by CodeGPT](assets/CodeGPT-qwen2.5-coder-32b.png)  
+![Select Provider - CodeGPT](assets/CodeGPT-Select-Provider.png)  
+![Select Model - CodeGPT](assets/CodeGPT-Select-Model.png)  
 
 ## Important Notes
 
